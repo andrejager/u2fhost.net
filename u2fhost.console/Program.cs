@@ -9,8 +9,10 @@ namespace u2fhost.console
 	{
 		private static readonly ILog Log = LogManager.GetLogger(typeof (Program));
 
-		private const int VendorId = 0x1050;
-		private const int ProductId = 0x0120;
+        // https://shop.nitrokey.com/shop/product/nitrokey-u2f-5
+
+		private const int VendorId = 0x2581;
+		private const int ProductId = 0xF1D0;
 
 		public static void Main(string[] args)
 		{
